@@ -1,0 +1,5 @@
+Como criar um git local
+
+1. git --version (se nada aparece, fazer o download e instalar o git)
+2. git config --global user.name "Melo-Edvaldo" (usuário no Git Hub)
+3. git config --global user.email "professor.edvaldomelo@gmail.com" (e-mail associado)
