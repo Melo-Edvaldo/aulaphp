@@ -1,5 +1,24 @@
-Como criar um git local
+Como criar um git local e enviar para o Git Hub
 
 1. git --version (se nada aparece, fazer o download e instalar o git)
 2. git config --global user.name "Melo-Edvaldo" (usuário no Git Hub)
-3. git config --global user.email "professor.edvaldomelo@gmail.com" (e-mail associado)
+3. git config --global user.email "professor.edvaldomelo@gmail.com" (e-mail associado no Git Hub)
+4. git init
+5. git add variaveis.php ou git add . (adicionar o arquivo)
+6. git commit -m "Primeiro Commit" (nome da versão)
+7. Em Source Control, clicar em Commit
+9. Ir no site do Git Hub
+10. Criar um novo repositório, dando-lhe um nome
+11. Copiar e colar os seguintes comandos que estão no site
+12. git branch -M main
+13. git remote add origin https://github.com/Melo-Edvaldo/aulaphp.git
+14. git push -u origin main
+
+Como recuperar o projeto
+
+1. cd /
+2. cd .\wamp\
+3. cd .\www\
+4. git clone https://github.com/Melo-Edvaldo/aulaphp.git
+5. dir
+
